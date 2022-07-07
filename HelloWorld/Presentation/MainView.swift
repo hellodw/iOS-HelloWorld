@@ -11,10 +11,13 @@ struct MainView: View {
     var body: some View {
         NavigationView {
             List {
-                Text("UI 스니핏")
-                Text("UI 테스트")
+                NavigationLink {
+                    LottieCollectionView()
+                } label: {
+                    Text("Lottie Collection")
+                }
             }
-            .navigationTitle("매버릭 UI 연구소")
+            .navigationTitle("UI&UX Lab.")
         }
         .navigationViewStyle(.stack)
     }
