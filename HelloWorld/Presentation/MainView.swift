@@ -11,10 +11,26 @@ struct MainView: View {
     var body: some View {
         NavigationView {
             List {
-                NavigationLink {
-                    LottieCollectionView()
-                } label: {
-                    Text("Lottie Collection")
+                Section(header: Text("로티 애니메이션")) {
+                    NavigationLink {
+                        LottieCollectionView()
+                    } label: {
+                        Text("Lottie Collection")
+                    }
+                }
+                Section(header: Text("연구 2")) {
+                    NavigationLink {
+                        LottieCollectionView()
+                    } label: {
+                        Text("Lottie Collection")
+                    }
+                }
+                Section(header: Text("연구 3")) {
+                    NavigationLink {
+                        LottieCollectionView()
+                    } label: {
+                        Text("Lottie Collection")
+                    }
                 }
             }
             .navigationTitle("UI&UX Lab.")

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4478992287808F90052ABDE /* SnapKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4478991287808F90052ABDE /* SnapKit.xcframework */; };
+		B4478993287808F90052ABDE /* SnapKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B4478991287808F90052ABDE /* SnapKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B4794D0328740FEF007F4310 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4794D0228740FEF007F4310 /* MainView.swift */; };
 		B4C730442875665F00FB0416 /* Lottie.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C730432875665F00FB0416 /* Lottie.xcframework */; };
 		B4C730452875665F00FB0416 /* Lottie.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B4C730432875665F00FB0416 /* Lottie.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -54,6 +56,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				B4478993287808F90052ABDE /* SnapKit.xcframework in Embed Frameworks */,
 				B4C730452875665F00FB0416 /* Lottie.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -62,6 +65,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B4478991287808F90052ABDE /* SnapKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SnapKit.xcframework; path = Carthage/Build/SnapKit.xcframework; sourceTree = "<group>"; };
 		B4794D0228740FEF007F4310 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		B4C730432875665F00FB0416 /* Lottie.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Lottie.xcframework; path = Carthage/Build/Lottie.xcframework; sourceTree = "<group>"; };
 		B4C7304C28756A5800FB0416 /* UIKitAdaptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitAdaptor.swift; sourceTree = "<group>"; };
@@ -93,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4478992287808F90052ABDE /* SnapKit.xcframework in Frameworks */,
 				B4C730442875665F00FB0416 /* Lottie.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -117,9 +122,7 @@
 		B4794D0128740F9C007F4310 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B4F189E8287405DB002B7E86 /* LaunchScreen.storyboard */,
 				B4F189EB287405DB002B7E86 /* Info.plist */,
-				B4F189E6287405DB002B7E86 /* Assets.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 		B4C730422875665F00FB0416 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B4478991287808F90052ABDE /* SnapKit.xcframework */,
 				B4C730432875665F00FB0416 /* Lottie.xcframework */,
 			);
 			name = Frameworks;
@@ -179,6 +183,8 @@
 		B4C7305628757D3B00FB0416 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B4F189E6287405DB002B7E86 /* Assets.xcassets */,
+				B4F189E8287405DB002B7E86 /* LaunchScreen.storyboard */,
 				B4C7305728757D6400FB0416 /* Lottie */,
 			);
 			path = Resources;

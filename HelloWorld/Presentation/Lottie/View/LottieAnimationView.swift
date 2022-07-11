@@ -7,6 +7,7 @@
 
 import UIKit
 import Lottie
+import SnapKit
 
 final class LottieAnimationView: UIView {
     private let animationView = AnimationView()
@@ -15,14 +16,9 @@ final class LottieAnimationView: UIView {
         super.init(frame: .zero)
         
         self.addSubview(animationView)
-        animationView.translatesAutoresizingMaskIntoConstraints = false
-        
-        NSLayoutConstraint.activate([
-            animationView.topAnchor.constraint(equalTo: self.topAnchor),
-            animationView.rightAnchor.constraint(equalTo: self.rightAnchor),
-            animationView.bottomAnchor.constraint(equalTo: self.bottomAnchor),
-            animationView.leftAnchor.constraint(equalTo: self.leftAnchor)
-        ])
+        animationView.snp.makeConstraints { make in
+            make.top.right.bottom.left.equalToSuperview()
+        }
         
         animationView.animation = Animation.named(lottieFileName)
         animationView.contentMode = .scaleAspectFill
