@@ -18,18 +18,11 @@ struct MainView: View {
                         Text("Lottie Collection")
                     }
                 }
-                Section(header: Text("연구 2")) {
+                Section(header: Text("UI 테스트 - 손쉬운사용 > 버튼 모양 설정시 음영 처리")) {
                     NavigationLink {
-                        LottieCollectionView()
+                        UIViewControllerAdaptor<TestUIViewController>()
                     } label: {
-                        Text("Lottie Collection")
-                    }
-                }
-                Section(header: Text("연구 3")) {
-                    NavigationLink {
-                        LottieCollectionView()
-                    } label: {
-                        Text("Lottie Collection")
+                        Text("버튼이 있는 TableView")
                     }
                 }
             }
