@@ -1,0 +1,3 @@
+[submodule "iOS-TestGitSubmodule"]
+	path = iOS-TestGitSubmodule
+	url = git@github.com-hellodw:hellodw/iOS-TestGitSubmodule.git
