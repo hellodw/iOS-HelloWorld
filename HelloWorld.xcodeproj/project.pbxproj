@@ -39,6 +39,8 @@
 		B4F189FF287405DB002B7E86 /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F189FE287405DB002B7E86 /* HelloWorldUITests.swift */; };
 		B4F18A01287405DB002B7E86 /* HelloWorldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F18A00287405DB002B7E86 /* HelloWorldUITestsLaunchTests.swift */; };
 		B4F9DDB42880125D004B4E74 /* RandomJokeUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F9DDB32880125D004B4E74 /* RandomJokeUseCaseTests.swift */; };
+		B4FD4B002A0C857F0085100E /* TestSubModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4FD4AFD2A0C85770085100E /* TestSubModule.framework */; };
+		B4FD4B012A0C857F0085100E /* TestSubModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B4FD4AFD2A0C85770085100E /* TestSubModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E00D51A554C641B1F66D6C1D /* Pods_HelloWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF0A58D4C82970E43BC1C34E /* Pods_HelloWorld.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +68,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				B4FD4B012A0C857F0085100E /* TestSubModule.framework in Embed Frameworks */,
 				B42F33062939CFE20025A1AA /* SnapKit.xcframework in Embed Frameworks */,
 				B42F33032939CFD70025A1AA /* Lottie.xcframework in Embed Frameworks */,
 			);
@@ -115,6 +118,7 @@
 		B4F18A00287405DB002B7E86 /* HelloWorldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B4F9DD92287E9ECA004B4E74 /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
 		B4F9DDB32880125D004B4E74 /* RandomJokeUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomJokeUseCaseTests.swift; sourceTree = "<group>"; };
+		B4FD4AFD2A0C85770085100E /* TestSubModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TestSubModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC686504993FB43DD15F8376 /* Pods-HelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.release.xcconfig"; path = "Target Support Files/Pods-HelloWorld/Pods-HelloWorld.release.xcconfig"; sourceTree = "<group>"; };
 		BF0A58D4C82970E43BC1C34E /* Pods_HelloWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F09A21CE6E0F2124104AD083 /* Pods_HelloWorldTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorldTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +132,7 @@
 			files = (
 				B42F33022939CFD70025A1AA /* Lottie.xcframework in Frameworks */,
 				B477EBAE29EBAA5300CBC758 /* GIFO in Frameworks */,
+				B4FD4B002A0C857F0085100E /* TestSubModule.framework in Frameworks */,
 				B42F33052939CFE20025A1AA /* SnapKit.xcframework in Frameworks */,
 				E00D51A554C641B1F66D6C1D /* Pods_HelloWorld.framework in Frameworks */,
 			);
@@ -193,6 +198,7 @@
 		B4C730422875665F00FB0416 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B4FD4AFD2A0C85770085100E /* TestSubModule.framework */,
 				B4CE174528A38499003CF293 /* MVPFeature1.framework */,
 				B4CE16FF28A38169003CF293 /* MVPCore.framework */,
 				B4F9DD92287E9ECA004B4E74 /* Alamofire.xcframework */,

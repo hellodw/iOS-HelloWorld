@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
+import TestSubModule
 
 struct MainView: View {
+  let testText = TestSubModule.Test.test
+  
   var body: some View {
     NavigationView {
       List {
-        Section(header: Text("로티 애니메이션")) {
+        Section(header: Text("\(testText) 로티 애니메이션")) {
           NavigationLink {
             LottieCollectionView()
           } label: {
