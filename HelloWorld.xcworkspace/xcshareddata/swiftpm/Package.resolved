@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "gifo",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ornwoo96/GIFO.git",
+      "state" : {
+        "revision" : "41ef18c302c4901f4e8a6364d84a54521279c5fc",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}

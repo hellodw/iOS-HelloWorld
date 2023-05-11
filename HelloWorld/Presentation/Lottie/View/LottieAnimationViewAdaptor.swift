@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LottieAnimationViewAdaptor: UIViewRepresentable {
-    typealias UIViewType = LottieAnimationView
+    typealias UIViewType = LottieTestAnimationView
     
     private let lottieFileName: String
     
@@ -16,10 +16,10 @@ struct LottieAnimationViewAdaptor: UIViewRepresentable {
         self.lottieFileName = lottieFileName
     }
     
-    func makeUIView(context: Context) -> LottieAnimationView {
-        return LottieAnimationView(lottieFileName: self.lottieFileName)
+    func makeUIView(context: Context) -> LottieTestAnimationView {
+        return LottieTestAnimationView(lottieFileName: self.lottieFileName)
     }
     
-    func updateUIView(_ uiView: LottieAnimationView, context: Context) {
+    func updateUIView(_ uiView: LottieTestAnimationView, context: Context) {
     }
 }

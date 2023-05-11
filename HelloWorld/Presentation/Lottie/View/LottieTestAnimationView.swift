@@ -1,5 +1,5 @@
 //
-//  LottieAnimationView.swift
+//  LottieTestAnimationView.swift
 //  HelloWorld
 //
 //  Created by maverick.b on 2022/07/06.
@@ -9,8 +9,8 @@ import UIKit
 import Lottie
 import SnapKit
 
-final class LottieAnimationView: UIView {
-    private let animationView = AnimationView()
+final class LottieTestAnimationView: UIView {
+    private let animationView = LottieAnimationView()
     
     init(lottieFileName: String) {
         super.init(frame: .zero)
@@ -20,7 +20,7 @@ final class LottieAnimationView: UIView {
             make.top.right.bottom.left.equalToSuperview()
         }
         
-        animationView.animation = Animation.named(lottieFileName)
+        animationView.animation = LottieAnimation.named(lottieFileName)
         animationView.contentMode = .scaleAspectFill
         animationView.loopMode = .loop
         animationView.play()

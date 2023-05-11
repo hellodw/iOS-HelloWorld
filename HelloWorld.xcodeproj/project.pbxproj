@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B4478992287808F90052ABDE /* SnapKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4478991287808F90052ABDE /* SnapKit.xcframework */; };
-		B4478993287808F90052ABDE /* SnapKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B4478991287808F90052ABDE /* SnapKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B4794D0328740FEF007F4310 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4794D0228740FEF007F4310 /* MainView.swift */; };
-		B4C730442875665F00FB0416 /* Lottie.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C730432875665F00FB0416 /* Lottie.xcframework */; };
-		B4C730452875665F00FB0416 /* Lottie.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B4C730432875665F00FB0416 /* Lottie.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B4C7304D28756A5800FB0416 /* UIKitAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C7304C28756A5800FB0416 /* UIKitAdaptor.swift */; };
+		3804944BFEF245B1308526D3 /* Pods_HelloWorld_HelloWorldUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B80EB77D5D723802574090 /* Pods_HelloWorld_HelloWorldUITests.framework */; };
+		99DAD2E7BCEF118692B70652 /* Pods_HelloWorldTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F09A21CE6E0F2124104AD083 /* Pods_HelloWorldTests.framework */; };
+		B42F33022939CFD70025A1AA /* Lottie.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C730432875665F00FB0416 /* Lottie.xcframework */; };
+		B42F33032939CFD70025A1AA /* Lottie.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B4C730432875665F00FB0416 /* Lottie.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B42F33052939CFE20025A1AA /* SnapKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4478991287808F90052ABDE /* SnapKit.xcframework */; };
+		B42F33062939CFE20025A1AA /* SnapKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B4478991287808F90052ABDE /* SnapKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B42F33092939F1CD0025A1AA /* WebPTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F33082939F1CD0025A1AA /* WebPTestView.swift */; };
+		B46FDB98293D995800EE9227 /* VideoTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46FDB97293D995800EE9227 /* VideoTestView.swift */; };
+		B46FDB9A293DADEA00EE9227 /* WebmTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46FDB99293DADEA00EE9227 /* WebmTestViewController.swift */; };
+		B477EBAE29EBAA5300CBC758 /* GIFO in Frameworks */ = {isa = PBXBuildFile; productRef = B477EBAD29EBAA5300CBC758 /* GIFO */; };
 		B4C7305928757D8B00FB0416 /* dog_car_ride.json in Resources */ = {isa = PBXBuildFile; fileRef = B4C7305828757D8B00FB0416 /* dog_car_ride.json */; };
-		B4C7305B2875814E00FB0416 /* LottieCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C7305A2875814E00FB0416 /* LottieCollectionView.swift */; };
-		B4C7305D2875827700FB0416 /* LottieAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C7305C2875827700FB0416 /* LottieAnimationView.swift */; };
-		B4C7305F2876A92800FB0416 /* LottieAnimationViewAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C7305E2876A92800FB0416 /* LottieAnimationViewAdaptor.swift */; };
 		B4C730632876AECB00FB0416 /* cactus.json in Resources */ = {isa = PBXBuildFile; fileRef = B4C730622876AECB00FB0416 /* cactus.json */; };
 		B4C7306B2876AF3F00FB0416 /* gradient_pill.json in Resources */ = {isa = PBXBuildFile; fileRef = B4C7306A2876AF3F00FB0416 /* gradient_pill.json */; };
 		B4C730712876AF9400FB0416 /* growth.json in Resources */ = {isa = PBXBuildFile; fileRef = B4C730702876AF9400FB0416 /* growth.json */; };
@@ -24,12 +25,21 @@
 		B4C7307B2876B01100FB0416 /* loading_gradient_strokes.json in Resources */ = {isa = PBXBuildFile; fileRef = B4C7307A2876B01100FB0416 /* loading_gradient_strokes.json */; };
 		B4C7307F2876B03C00FB0416 /* shop.json in Resources */ = {isa = PBXBuildFile; fileRef = B4C7307E2876B03C00FB0416 /* shop.json */; };
 		B4C730812876B05100FB0416 /* step_loader.json in Resources */ = {isa = PBXBuildFile; fileRef = B4C730802876B05100FB0416 /* step_loader.json */; };
+		B4CE176128A38A50003CF293 /* UIKitAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CE175528A38A50003CF293 /* UIKitAdaptor.swift */; };
+		B4CE176228A38A50003CF293 /* GlobalMoreItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4CE175828A38A50003CF293 /* GlobalMoreItemTableViewCell.xib */; };
+		B4CE176428A38A50003CF293 /* GlobalMoreItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CE175A28A38A50003CF293 /* GlobalMoreItemTableViewCell.swift */; };
+		B4CE176528A38A50003CF293 /* LottieTestAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CE175D28A38A50003CF293 /* LottieTestAnimationView.swift */; };
+		B4CE176628A38A50003CF293 /* LottieAnimationViewAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CE175E28A38A50003CF293 /* LottieAnimationViewAdaptor.swift */; };
+		B4CE176728A38A50003CF293 /* LottieCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CE175F28A38A50003CF293 /* LottieCollectionView.swift */; };
+		B4CE176828A38A50003CF293 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CE176028A38A50003CF293 /* MainView.swift */; };
 		B4F189DE287405DA002B7E86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F189DD287405DA002B7E86 /* AppDelegate.swift */; };
 		B4F189E7287405DB002B7E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4F189E6287405DB002B7E86 /* Assets.xcassets */; };
 		B4F189EA287405DB002B7E86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F189E8287405DB002B7E86 /* LaunchScreen.storyboard */; };
 		B4F189F5287405DB002B7E86 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F189F4287405DB002B7E86 /* HelloWorldTests.swift */; };
 		B4F189FF287405DB002B7E86 /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F189FE287405DB002B7E86 /* HelloWorldUITests.swift */; };
 		B4F18A01287405DB002B7E86 /* HelloWorldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F18A00287405DB002B7E86 /* HelloWorldUITestsLaunchTests.swift */; };
+		B4F9DDB42880125D004B4E74 /* RandomJokeUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F9DDB32880125D004B4E74 /* RandomJokeUseCaseTests.swift */; };
+		E00D51A554C641B1F66D6C1D /* Pods_HelloWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF0A58D4C82970E43BC1C34E /* Pods_HelloWorld.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,14 +60,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B4C730462875665F00FB0416 /* Embed Frameworks */ = {
+		B42F33042939CFD70025A1AA /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B4478993287808F90052ABDE /* SnapKit.xcframework in Embed Frameworks */,
-				B4C730452875665F00FB0416 /* Lottie.xcframework in Embed Frameworks */,
+				B42F33062939CFE20025A1AA /* SnapKit.xcframework in Embed Frameworks */,
+				B42F33032939CFD70025A1AA /* Lottie.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,14 +75,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		29ED9923872A248896E3360B /* Pods-HelloWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorld/Pods-HelloWorld.debug.xcconfig"; sourceTree = "<group>"; };
+		68B80EB77D5D723802574090 /* Pods_HelloWorld_HelloWorldUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld_HelloWorldUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE489E09A79EA2EF312D9F3 /* Pods-HelloWorld-HelloWorldUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld-HelloWorldUITests.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorld-HelloWorldUITests/Pods-HelloWorld-HelloWorldUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9164A95900FA2E5647A1FF60 /* Pods-HelloWorldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldTests.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABE6DC8D772288BFEDAE24B7 /* Pods-HelloWorld-HelloWorldUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld-HelloWorldUITests.release.xcconfig"; path = "Target Support Files/Pods-HelloWorld-HelloWorldUITests/Pods-HelloWorld-HelloWorldUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B42F33082939F1CD0025A1AA /* WebPTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPTestView.swift; sourceTree = "<group>"; };
 		B4478991287808F90052ABDE /* SnapKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SnapKit.xcframework; path = Carthage/Build/SnapKit.xcframework; sourceTree = "<group>"; };
-		B4794D0228740FEF007F4310 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B4478994287BB89B0052ABDE /* Moya.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Moya.xcframework; path = Carthage/Build/Moya.xcframework; sourceTree = "<group>"; };
+		B46FDB97293D995800EE9227 /* VideoTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTestView.swift; sourceTree = "<group>"; };
+		B46FDB99293DADEA00EE9227 /* WebmTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebmTestViewController.swift; sourceTree = "<group>"; };
 		B4C730432875665F00FB0416 /* Lottie.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Lottie.xcframework; path = Carthage/Build/Lottie.xcframework; sourceTree = "<group>"; };
-		B4C7304C28756A5800FB0416 /* UIKitAdaptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitAdaptor.swift; sourceTree = "<group>"; };
 		B4C7305828757D8B00FB0416 /* dog_car_ride.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dog_car_ride.json; sourceTree = "<group>"; };
-		B4C7305A2875814E00FB0416 /* LottieCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieCollectionView.swift; sourceTree = "<group>"; };
-		B4C7305C2875827700FB0416 /* LottieAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationView.swift; sourceTree = "<group>"; };
-		B4C7305E2876A92800FB0416 /* LottieAnimationViewAdaptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationViewAdaptor.swift; sourceTree = "<group>"; };
 		B4C730622876AECB00FB0416 /* cactus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cactus.json; sourceTree = "<group>"; };
 		B4C7306A2876AF3F00FB0416 /* gradient_pill.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gradient_pill.json; sourceTree = "<group>"; };
 		B4C730702876AF9400FB0416 /* growth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = growth.json; sourceTree = "<group>"; };
@@ -80,6 +94,15 @@
 		B4C7307A2876B01100FB0416 /* loading_gradient_strokes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading_gradient_strokes.json; sourceTree = "<group>"; };
 		B4C7307E2876B03C00FB0416 /* shop.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shop.json; sourceTree = "<group>"; };
 		B4C730802876B05100FB0416 /* step_loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = step_loader.json; sourceTree = "<group>"; };
+		B4CE16FF28A38169003CF293 /* MVPCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MVPCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4CE174528A38499003CF293 /* MVPFeature1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MVPFeature1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4CE175528A38A50003CF293 /* UIKitAdaptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitAdaptor.swift; sourceTree = "<group>"; };
+		B4CE175828A38A50003CF293 /* GlobalMoreItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GlobalMoreItemTableViewCell.xib; sourceTree = "<group>"; };
+		B4CE175A28A38A50003CF293 /* GlobalMoreItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalMoreItemTableViewCell.swift; sourceTree = "<group>"; };
+		B4CE175D28A38A50003CF293 /* LottieTestAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieTestAnimationView.swift; sourceTree = "<group>"; };
+		B4CE175E28A38A50003CF293 /* LottieAnimationViewAdaptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieAnimationViewAdaptor.swift; sourceTree = "<group>"; };
+		B4CE175F28A38A50003CF293 /* LottieCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieCollectionView.swift; sourceTree = "<group>"; };
+		B4CE176028A38A50003CF293 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		B4F189DA287405DA002B7E86 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F189DD287405DA002B7E86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4F189E6287405DB002B7E86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -90,6 +113,12 @@
 		B4F189FA287405DB002B7E86 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F189FE287405DB002B7E86 /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		B4F18A00287405DB002B7E86 /* HelloWorldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B4F9DD92287E9ECA004B4E74 /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
+		B4F9DDB32880125D004B4E74 /* RandomJokeUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomJokeUseCaseTests.swift; sourceTree = "<group>"; };
+		BC686504993FB43DD15F8376 /* Pods-HelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.release.xcconfig"; path = "Target Support Files/Pods-HelloWorld/Pods-HelloWorld.release.xcconfig"; sourceTree = "<group>"; };
+		BF0A58D4C82970E43BC1C34E /* Pods_HelloWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09A21CE6E0F2124104AD083 /* Pods_HelloWorldTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorldTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F447F94F3BEFC06F5889DFA9 /* Pods-HelloWorldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldTests.release.xcconfig"; path = "Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +126,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4478992287808F90052ABDE /* SnapKit.xcframework in Frameworks */,
-				B4C730442875665F00FB0416 /* Lottie.xcframework in Frameworks */,
+				B42F33022939CFD70025A1AA /* Lottie.xcframework in Frameworks */,
+				B477EBAE29EBAA5300CBC758 /* GIFO in Frameworks */,
+				B42F33052939CFE20025A1AA /* SnapKit.xcframework in Frameworks */,
+				E00D51A554C641B1F66D6C1D /* Pods_HelloWorld.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99DAD2E7BCEF118692B70652 /* Pods_HelloWorldTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,12 +145,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3804944BFEF245B1308526D3 /* Pods_HelloWorld_HelloWorldUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DE94666D77AEFF11CCD2FD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29ED9923872A248896E3360B /* Pods-HelloWorld.debug.xcconfig */,
+				BC686504993FB43DD15F8376 /* Pods-HelloWorld.release.xcconfig */,
+				8AE489E09A79EA2EF312D9F3 /* Pods-HelloWorld-HelloWorldUITests.debug.xcconfig */,
+				ABE6DC8D772288BFEDAE24B7 /* Pods-HelloWorld-HelloWorldUITests.release.xcconfig */,
+				9164A95900FA2E5647A1FF60 /* Pods-HelloWorldTests.debug.xcconfig */,
+				F447F94F3BEFC06F5889DFA9 /* Pods-HelloWorldTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B42F33072939F1B60025A1AA /* WebPTest */ = {
+			isa = PBXGroup;
+			children = (
+				B42F33082939F1CD0025A1AA /* WebPTestView.swift */,
+			);
+			path = WebPTest;
+			sourceTree = "<group>";
+		};
+		B46FDB96293D992C00EE9227 /* VideoTest */ = {
+			isa = PBXGroup;
+			children = (
+				B46FDB97293D995800EE9227 /* VideoTestView.swift */,
+				B46FDB99293DADEA00EE9227 /* WebmTestViewController.swift */,
+			);
+			path = VideoTest;
+			sourceTree = "<group>";
+		};
 		B4794D0128740F9C007F4310 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,8 +193,15 @@
 		B4C730422875665F00FB0416 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B4CE174528A38499003CF293 /* MVPFeature1.framework */,
+				B4CE16FF28A38169003CF293 /* MVPCore.framework */,
+				B4F9DD92287E9ECA004B4E74 /* Alamofire.xcframework */,
+				B4478994287BB89B0052ABDE /* Moya.xcframework */,
 				B4478991287808F90052ABDE /* SnapKit.xcframework */,
 				B4C730432875665F00FB0416 /* Lottie.xcframework */,
+				BF0A58D4C82970E43BC1C34E /* Pods_HelloWorld.framework */,
+				68B80EB77D5D723802574090 /* Pods_HelloWorld_HelloWorldUITests.framework */,
+				F09A21CE6E0F2124104AD083 /* Pods_HelloWorldTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -142,42 +212,6 @@
 				B4F189DD287405DA002B7E86 /* AppDelegate.swift */,
 			);
 			path = Application;
-			sourceTree = "<group>";
-		};
-		B4C7305228757CD000FB0416 /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				B4794D0228740FEF007F4310 /* MainView.swift */,
-				B4C7304C28756A5800FB0416 /* UIKitAdaptor.swift */,
-				B4C7305328757CE400FB0416 /* Lottie */,
-			);
-			path = Presentation;
-			sourceTree = "<group>";
-		};
-		B4C7305328757CE400FB0416 /* Lottie */ = {
-			isa = PBXGroup;
-			children = (
-				B4C7305428757D0200FB0416 /* View */,
-				B4C7305528757D0900FB0416 /* ViewModel */,
-			);
-			path = Lottie;
-			sourceTree = "<group>";
-		};
-		B4C7305428757D0200FB0416 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				B4C7305A2875814E00FB0416 /* LottieCollectionView.swift */,
-				B4C7305C2875827700FB0416 /* LottieAnimationView.swift */,
-				B4C7305E2876A92800FB0416 /* LottieAnimationViewAdaptor.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		B4C7305528757D0900FB0416 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		B4C7305628757D3B00FB0416 /* Resources */ = {
@@ -205,6 +239,54 @@
 			path = Lottie;
 			sourceTree = "<group>";
 		};
+		B4CE175428A38A50003CF293 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B46FDB96293D992C00EE9227 /* VideoTest */,
+				B42F33072939F1B60025A1AA /* WebPTest */,
+				B4CE175628A38A50003CF293 /* TestUI */,
+				B4CE175B28A38A50003CF293 /* Lottie */,
+				B4CE175528A38A50003CF293 /* UIKitAdaptor.swift */,
+				B4CE176028A38A50003CF293 /* MainView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B4CE175628A38A50003CF293 /* TestUI */ = {
+			isa = PBXGroup;
+			children = (
+				B4CE175728A38A50003CF293 /* View */,
+			);
+			path = TestUI;
+			sourceTree = "<group>";
+		};
+		B4CE175728A38A50003CF293 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4CE175828A38A50003CF293 /* GlobalMoreItemTableViewCell.xib */,
+				B4CE175A28A38A50003CF293 /* GlobalMoreItemTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4CE175B28A38A50003CF293 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				B4CE175C28A38A50003CF293 /* View */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		B4CE175C28A38A50003CF293 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4CE175D28A38A50003CF293 /* LottieTestAnimationView.swift */,
+				B4CE175E28A38A50003CF293 /* LottieAnimationViewAdaptor.swift */,
+				B4CE175F28A38A50003CF293 /* LottieCollectionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B4F189D1287405DA002B7E86 = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +295,7 @@
 				B4F189FD287405DB002B7E86 /* HelloWorldUITests */,
 				B4F189DB287405DA002B7E86 /* Products */,
 				B4C730422875665F00FB0416 /* Frameworks */,
+				4DE94666D77AEFF11CCD2FD9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -230,7 +313,7 @@
 			isa = PBXGroup;
 			children = (
 				B4C7305128757C9200FB0416 /* Application */,
-				B4C7305228757CD000FB0416 /* Presentation */,
+				B4CE175428A38A50003CF293 /* Presentation */,
 				B4C7305628757D3B00FB0416 /* Resources */,
 				B4794D0128740F9C007F4310 /* Supporting Files */,
 			);
@@ -240,6 +323,7 @@
 		B4F189F3287405DB002B7E86 /* HelloWorldTests */ = {
 			isa = PBXGroup;
 			children = (
+				B4F9DDAF28801217004B4E74 /* Domain */,
 				B4F189F4287405DB002B7E86 /* HelloWorldTests.swift */,
 			);
 			path = HelloWorldTests;
@@ -254,6 +338,22 @@
 			path = HelloWorldUITests;
 			sourceTree = "<group>";
 		};
+		B4F9DDAF28801217004B4E74 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				B4F9DDB02880121F004B4E74 /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		B4F9DDB02880121F004B4E74 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				B4F9DDB32880125D004B4E74 /* RandomJokeUseCaseTests.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -261,16 +361,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4F18A04287405DB002B7E86 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
 			buildPhases = (
+				2096FAF6DA925878A86B69E8 /* [CP] Check Pods Manifest.lock */,
 				B4F189D6287405DA002B7E86 /* Sources */,
 				B4F189D7287405DA002B7E86 /* Frameworks */,
 				B4F189D8287405DA002B7E86 /* Resources */,
-				B4C730462875665F00FB0416 /* Embed Frameworks */,
+				B42F33042939CFD70025A1AA /* Embed Frameworks */,
+				F3D9CBAAC2C9131D7537E5A7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = HelloWorld;
+			packageProductDependencies = (
+				B477EBAD29EBAA5300CBC758 /* GIFO */,
+			);
 			productName = HelloWorld;
 			productReference = B4F189DA287405DA002B7E86 /* HelloWorld.app */;
 			productType = "com.apple.product-type.application";
@@ -279,6 +384,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4F18A07287405DB002B7E86 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */;
 			buildPhases = (
+				865F04CB46F7E9DBEB0225AC /* [CP] Check Pods Manifest.lock */,
 				B4F189EC287405DB002B7E86 /* Sources */,
 				B4F189ED287405DB002B7E86 /* Frameworks */,
 				B4F189EE287405DB002B7E86 /* Resources */,
@@ -297,9 +403,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4F18A0A287405DB002B7E86 /* Build configuration list for PBXNativeTarget "HelloWorldUITests" */;
 			buildPhases = (
+				D0D11A99946C6ED6B31A4DBE /* [CP] Check Pods Manifest.lock */,
 				B4F189F6287405DB002B7E86 /* Sources */,
 				B4F189F7287405DB002B7E86 /* Frameworks */,
 				B4F189F8287405DB002B7E86 /* Resources */,
+				69250EBE1D36310B814711A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -343,6 +451,9 @@
 				Base,
 			);
 			mainGroup = B4F189D1287405DA002B7E86;
+			packageReferences = (
+				B477EBAC29EBAA5300CBC758 /* XCRemoteSwiftPackageReference "GIFO" */,
+			);
 			productRefGroup = B4F189DB287405DA002B7E86 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -362,6 +473,7 @@
 				B4C730712876AF9400FB0416 /* growth.json in Resources */,
 				B4C7307F2876B03C00FB0416 /* shop.json in Resources */,
 				B4F189EA287405DB002B7E86 /* LaunchScreen.storyboard in Resources */,
+				B4CE176228A38A50003CF293 /* GlobalMoreItemTableViewCell.xib in Resources */,
 				B4C7307B2876B01100FB0416 /* loading_gradient_strokes.json in Resources */,
 				B4F189E7287405DB002B7E86 /* Assets.xcassets in Resources */,
 				B4C730632876AECB00FB0416 /* cactus.json in Resources */,
@@ -388,17 +500,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2096FAF6DA925878A86B69E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloWorld-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69250EBE1D36310B814711A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorld-HelloWorldUITests/Pods-HelloWorld-HelloWorldUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorld-HelloWorldUITests/Pods-HelloWorld-HelloWorldUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWorld-HelloWorldUITests/Pods-HelloWorld-HelloWorldUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		865F04CB46F7E9DBEB0225AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloWorldTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0D11A99946C6ED6B31A4DBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloWorld-HelloWorldUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3D9CBAAC2C9131D7537E5A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B4F189D6287405DA002B7E86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4C7305B2875814E00FB0416 /* LottieCollectionView.swift in Sources */,
-				B4794D0328740FEF007F4310 /* MainView.swift in Sources */,
-				B4C7305D2875827700FB0416 /* LottieAnimationView.swift in Sources */,
-				B4C7305F2876A92800FB0416 /* LottieAnimationViewAdaptor.swift in Sources */,
+				B4CE176628A38A50003CF293 /* LottieAnimationViewAdaptor.swift in Sources */,
+				B4CE176828A38A50003CF293 /* MainView.swift in Sources */,
+				B46FDB98293D995800EE9227 /* VideoTestView.swift in Sources */,
+				B4CE176128A38A50003CF293 /* UIKitAdaptor.swift in Sources */,
+				B4CE176428A38A50003CF293 /* GlobalMoreItemTableViewCell.swift in Sources */,
+				B4CE176528A38A50003CF293 /* LottieTestAnimationView.swift in Sources */,
+				B4CE176728A38A50003CF293 /* LottieCollectionView.swift in Sources */,
+				B42F33092939F1CD0025A1AA /* WebPTestView.swift in Sources */,
 				B4F189DE287405DA002B7E86 /* AppDelegate.swift in Sources */,
-				B4C7304D28756A5800FB0416 /* UIKitAdaptor.swift in Sources */,
+				B46FDB9A293DADEA00EE9227 /* WebmTestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +626,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4F189F5287405DB002B7E86 /* HelloWorldTests.swift in Sources */,
+				B4F9DDB42880125D004B4E74 /* RandomJokeUseCaseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,6 +784,7 @@
 		};
 		B4F18A05287405DB002B7E86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29ED9923872A248896E3360B /* Pods-HelloWorld.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -591,6 +812,7 @@
 		};
 		B4F18A06287405DB002B7E86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC686504993FB43DD15F8376 /* Pods-HelloWorld.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -618,6 +840,7 @@
 		};
 		B4F18A08287405DB002B7E86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9164A95900FA2E5647A1FF60 /* Pods-HelloWorldTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -638,6 +861,7 @@
 		};
 		B4F18A09287405DB002B7E86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F447F94F3BEFC06F5889DFA9 /* Pods-HelloWorldTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -658,6 +882,7 @@
 		};
 		B4F18A0B287405DB002B7E86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AE489E09A79EA2EF312D9F3 /* Pods-HelloWorld-HelloWorldUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -676,6 +901,7 @@
 		};
 		B4F18A0C287405DB002B7E86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE6DC8D772288BFEDAE24B7 /* Pods-HelloWorld-HelloWorldUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -732,6 +958,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B477EBAC29EBAA5300CBC758 /* XCRemoteSwiftPackageReference "GIFO" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ornwoo96/GIFO.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B477EBAD29EBAA5300CBC758 /* GIFO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B477EBAC29EBAA5300CBC758 /* XCRemoteSwiftPackageReference "GIFO" */;
+			productName = GIFO;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B4F189D2287405DA002B7E86 /* Project object */;
 }
